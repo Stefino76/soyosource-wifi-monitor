@@ -34,7 +34,7 @@ AsyncWebServer server(80);
 // Create an Event Source on /events
 AsyncEventSource events("/events");
 
-//Initialize Uart1(16,17) read only mode
+//Initialize Serial(D2) read only 
 HardwareSerial LCD(2);
 
 // Initialize WiFi
