@@ -9,15 +9,12 @@ You can use a digital isolator module, as a ADUM1201 or a level converter module
 This is the schema of  connections:
 
 
-        │        │   R│ │
-        │   CPU  │   S│ │
-        └────────┘   4│ │
-                     8│ │
-            oooo     4│ │
+        │        │      │ 
+        │   CPU  │      │
+        └────────┘      │
+                        │
+            oooo        │
             Disp        │
- ────────┐  ┌───┐  ┌────┘
-         └──┘   └──┘ ││
-          B+     B-
 
             ││││
             ││││            -------------
